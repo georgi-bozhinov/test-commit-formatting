@@ -10,8 +10,10 @@ app.get("/login", (req, res) => {
   res.send("Login");
 });
 
-app.listen(8000, () => {
-  console.log("Listening on port 3000");
+const port = 8000;
+
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
 });
 
 module.exports = app;
