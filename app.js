@@ -10,6 +10,10 @@ app.get("/login", (req, res) => {
   res.send("Login");
 });
 
+app.post("/home", (req, res) => {
+  res.send("Writing to db...");
+});
+
 const port = 8000;
 
 app.listen(port, () => {
