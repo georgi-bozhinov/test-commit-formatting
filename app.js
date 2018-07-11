@@ -15,7 +15,7 @@ app.post("/home", (req, res) => {
 });
 
 app.put("/home", (req, res) => {
-  res.send("Why though...");
+  res.send("Updating db...");
 });
 
 const port = 8000;
