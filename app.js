@@ -14,6 +14,10 @@ app.post("/home", (req, res) => {
   res.send("Writing to db...");
 });
 
+app.put("/home", (req, res) => {
+  res.send("Why though...");
+});
+
 const port = 8000;
 
 app.listen(port, () => {
